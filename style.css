@@ -1,0 +1,76 @@
+/* removing excessive padding */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* background colors, alignment, spacing */
+
+body {
+  background-color: gray;
+}
+body > main {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+body > header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: 'Tangerine', serif;
+}
+
+/* adjusting margins for h1 */
+h1 {
+  margin-top: 10px;
+}
+
+/* image size to align with width of content */
+img {
+  width: 500px;
+  height: 275px;
+}
+
+/* aligning appropriate texts to the left  */
+ol {
+  text-align: left;
+}
+ul {
+  text-align: left;
+}
+#intro-p {
+  text-align: left;
+}
+
+/* choosing overall fonts for text */
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+li {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* increasing margins between sections */
+section {
+  margin: 75px 0 75px 0;
+}
+
+/* footer styling */
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: 'Tangerine', serif;
+}

@@ -31,10 +31,10 @@ h1 {
   margin-top: 10px;
 }
 
-/* image size to align with width of content */
+/* image size to align with width of content, picture has a 3:2 ratio */
 img {
   width: 500px;
-  height: 275px;
+  height: 333px;
 }
 
 /* aligning appropriate texts to the left  */
@@ -42,9 +42,6 @@ ol {
   text-align: left;
 }
 ul {
-  text-align: left;
-}
-#intro-p {
   text-align: left;
 }
 
@@ -81,7 +78,7 @@ a:link {
 }
 
 a:visited {
-  color: blue;
+  color: #000;
 }
 
 a:hover {
